@@ -28,7 +28,7 @@ export default class Matrix extends Component {
 
   render() {
     return (
-      <div id="app" onClick={this.selectColor}>
+      <div id="app" > //onClick={this.selectColor} might not need it here
         <ColorSelector />
         <div id="matrix">
           {this.genMatrix()}
