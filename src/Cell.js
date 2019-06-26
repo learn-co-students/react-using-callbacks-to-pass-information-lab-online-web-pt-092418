@@ -9,7 +9,6 @@ export default class Cell extends Component {
   }
 
   handleClick = () => {
-    debugger
     const newColor = this.props.getColor();
     this.setState({
       color: newColor
